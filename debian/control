@@ -16,7 +16,8 @@ Build-Depends-Indep:
  python-migrate,
  python-routes,
  python-webob,
- python-lxml
+ python-lxml,
+ python-ldap
 XS-Python-Version: >=2.6
 Standards-Version: 3.9.1
 XCBS-Rcb-Component: diablo-final
