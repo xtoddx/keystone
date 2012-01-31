@@ -1,0 +1,139 @@
+keystone (2011.3-final-rcb14) natty; urgency=low
+
+  * Remove revisionist history style of patch
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 20 Dec 2011 23:05:47 +0000
+
+keystone (2011.3-final-rcb13) natty; urgency=low
+
+  * fix d5 compatibility (return correct service catalog
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 20 Dec 2011 23:02:48 +0000
+
+keystone (2011.3-final-rcb12) natty; urgency=low
+
+  * add the d5_compat filter line
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Fri, 16 Dec 2011 13:40:17 -0600
+
+keystone (2011.3-final-rcb11) natty; urgency=low
+
+  * fix token auth for d5-compat
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 13 Dec 2011 12:43:11 -0600
+
+keystone (2011.3-final-rcb10) natty; urgency=low
+
+  * fix d5-compat patch
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 12 Dec 2011 19:05:52 -0600
+
+keystone (2011.3-final-rcb9) natty; urgency=low
+
+  * add d5-compat middleware (openstack/keystone master,
+	b83a314b4b4eef39510240441704ea13f655ea9b)
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 12 Dec 2011 16:13:44 -0600
+
+keystone (2011.3-final-rcb8) natty; urgency=low
+
+  * add "keystone-manage credentials list" command
+  * make "keystone-manage roles list <tenant>" output useful
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 28 Nov 2011 13:31:54 -0600
+
+keystone (2011.3-final-rcb7) natty; urgency=low
+
+  * Fix packaging to include migration scripts (bug in MANIFEST.in)
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 21 Nov 2011 16:10:10 -0600
+
+keystone (2011.3-final-rcb6) natty; urgency=low
+
+  * update log directory at Joe Breu's suggestion
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Wed, 16 Nov 2011 14:30:14 -0600
+
+keystone (2011.3-final-rcb5) natty; urgency=low
+
+  * Update keystone to diablo/stable branch
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 15 Nov 2011 13:33:31 -0600
+
+keystone (2011.3-final-rcb4) natty; urgency=low
+
+  * add more verbose output on keystone-manage role list
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 08 Nov 2011 14:57:32 -0600
+
+keystone (2011.3-final-rcb3) natty; urgency=low
+
+  * add more verbose output on keystone-manage list users
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 03 Nov 2011 11:12:16 -0500
+
+keystone (2011.3-final-rcb2) natty; urgency=low
+
+  * add run-time dep for python-hashlib
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Wed, 02 Nov 2011 16:10:51 -0500
+
+keystone (2011.3-final-rcb1) natty; urgency=low
+
+  * update to github.com/openstack/keystone, revision
+    ec3ff092c1acb905e54d57c872821f1ab4fa0465 (tag rcb_v1.1)
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 01 Nov 2011 16:45:21 -0500
+
+keystone (2011.3-d5-rcb8) natty; urgency=low
+
+  * Add x-rcb-component in preparation for essex-e0 drop
+
+ -- RCB Builder <rcb-deply@lists.rackspace.com>  Fri, 28 Oct 2011 09:26:58 -0500
+
+keystone (2011.3-d5-rcb7) natty; urgency=low
+
+  * Remove bad logging line from ec2 middleware
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 13 Oct 2011 21:25:43 -0500
+
+keystone (2011.3-d5-rcb6) natty; urgency=low
+
+  * add middleware to support paste configuration of ec2 api + keystone
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 13 Oct 2011 16:52:59 -0500
+
+keystone (2011.3-d5-rcb5) natty; urgency=low
+
+  * fix sample data to include %tenant_id% endpoints
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Fri, 23 Sep 2011 12:50:31 -0500
+
+keystone (2011.3-d5-rcb4) natty; urgency=low
+
+  * split keystone and python-keystone
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 22 Sep 2011 15:29:16 -0500
+
+keystone (2011.3-d5-rcb3) natty; urgency=low
+
+  * fix runtime deps
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 22 Sep 2011 11:02:04 -0500
+
+keystone (2011.3-d5-rcb2) natty; urgency=low
+
+  * fix default config file
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 22 Sep 2011 10:35:24 -0500
+
+keystone (2011.3-d5-rcb1) natty; urgency=low
+
+  * Updated upstream source from
+    https://github.com/cloudbuilders/keystone.git, revision
+    eac83e5fa00a8357ab7981179a81a8988bcacef1 Updated debian packaging
+    from https://github.com/rpedde/debians.git, revision
+    74807909f14b247715c05e868bf70ed94f6c8bee
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Tue, 13 Sep 2011 23:40:11 -0500
+
